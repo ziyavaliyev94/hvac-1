@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+
+    .container {
+        width: 90%;
+        height: 100px;
+        // background-color: red;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .number {
+            border: 2px solid #FAD110;
+            font-size: 24px;
+            font-family: "Mulish", sans-serif;
+            font-weight: 700;
+            color: #4586D5;
+            padding: 9px 30px;
+        }
+
+        .social {
+            display: flex;
+            gap: 25px;
+
+            a {
+                color: black;
+                font-size: 18px;
+            }
+        }
+
+        nav {
+            ul {
+                display: flex;
+                justify-content: space-between;
+                // background-color: green;
+                width: 650px;
+                align-items: center;
+                margin: 0;
+
+                .logo {
+                    background-color: black;
+                    width: 180px;
+                    height: 100px;
+                    text-align: center;
+                    padding: 30px 25px;
+                }
+
+                li {
+                    a {
+                        color: black;
+                        font-size: 18px;
+                        font-family: "Saira Condensed", sans-serif;
+                        font-weight: 600;
+                        transition: 0.5s;
+
+                        &:hover {
+                            color: #4586D5;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.first {
+    background-image: url(https://preview.colorlib.com/theme/hvacompany/img/hero/hero-1.jpg.webp);
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    .content {
+        background-color: white;
+        width: 650px;
+        height: 350px;
+        padding: 40px 50px;
+        position: absolute;
+        top: 20%;
+        left: 50px;
+
+        h1 {
+            font-size: 45px;
+            font-family: "Saira Condensed", sans-serif;
+            font-weight: 650;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        button {
+            background-color: #FAD110;
+            margin-top: 30px;
+            width: 170px;
+            height: 50px;
+            font-weight: bold;
+            font-family: "Saira Condensed", sans-serif;
+            font-size: 20px;
+            border: none;
+            transition: 0.5s;
+
+            &:hover {
+                color: white;
+                cursor: pointer;
+            }
+
+
+        }
+
+    }
+
+    .specification {
+        // background-color: red;
+        display: flex;
+        gap: 30px;
+        position: absolute;
+        bottom: -70px;
+        left: 120px;
+
+        .payment {
+            background-color: #fff;
+            border: 1px solid grey;
+            width: 300px;
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .text {
+                font-size: 24px;
+                font-family: "Saira Condensed", sans-serif;
+                font-weight: 600;
+                margin-top: 10px;
+            }
+        }
+    }
+
+}
+
+.quote {
+    display: flex;
+    margin-top: 100px;
+
+    .resume {
+        background-color: #4586D5;
+        width: 50%;
+        height: 500px;
+
+        form {
+
+            .quote-input {
+                width: 40%;
+                background-color: transparent;
+                border: 1px solid #999;
+
+                &::placeholder{
+                    color: #fff;
+                }
+            }
+
+            .quote-textarea{
+                width: 81%;
+                height: 120px;
+                background-color: transparent;
+                border: 1px solid #999;
+
+                &::placeholder{
+                    color: #fff;
+                }
+            }
+        }
+
+    }
+
+    .video {
+        background-image: url(https://preview.colorlib.com/theme/hvacompany/img/quote-video.jpg);
+        width: 50%;
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a {
+            i {
+                font-size: 32px;
+                background-color: #4586D5;
+                color: #FFF;
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}
+
+footer {
+    background-color: #212529;
+    height: 500px;
+    align-items: center;
+    padding-left: 50px;
+    margin-top: 150px;
+
+    h5 {
+        font-size: 18px;
+    }
+
+    .footdiv {
+        // background-color: red;
+        height: 80px;
+        cursor: pointer;
+
+        .footext {
+            color: #c4c4c4;
+        }
+
+    }
+
+    .SUBSCRIBE {
+        background-color: transparent;
+        border: 1px solid grey;
+        width: 300px;
+        height: 50px;
+        padding-left: 20px;
+    }
+
+    .footbutton {
+        button {
+            width: 150px;
+            height: 50px;
+            font-family: "Saira Condensed", sans-serif;
+            font-weight: 600;
+            background-color: #FAD110;
+            ;
+        }
+    }
+
+    .paragraf {
+        color: #c4c4c4;
+    }
+
+    .asasa {
+        color: #c4c4c4;
+        margin-top: 85px;
+    }
+
+    .follow {
+        i {
+            font-size: 20px;
+            color: #c4c4c4;
+        }
+    }
+
+}
+
+.contact-us {
+    position: relative;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #4586D5;
+        position: absolute;
+        bottom: -215px;
+        left: 100px;
+
+        .contact {
+            span {
+                color: #FAD110;
+                font-size: 22px;
+            }
+
+            h2 {
+                font-size: 40px;
+                color: white;
+            }
+        }
+
+        .call {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+
+            .operator {
+                img {
+                    width: 80px;
+                    object-fit: cover;
+                }
+            }
+
+            .now {
+                span {
+                    color: white;
+                    font-size: 22px;
+                }
+
+                p {
+                    font-size: 50px;
+                    color: #FAD110;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+
+    .specification {
+        flex-wrap: wrap;
+    }
+
+    .first {
+        background-image: none;
+    }
+}

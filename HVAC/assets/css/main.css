@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+header .container {
+  width: 90%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container .number {
+  border: 2px solid #FAD110;
+  font-size: 24px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  color: #4586D5;
+  padding: 9px 30px;
+}
+header .container .social {
+  display: flex;
+  gap: 25px;
+}
+header .container .social a {
+  color: black;
+  font-size: 18px;
+}
+header .container nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 650px;
+  align-items: center;
+  margin: 0;
+}
+header .container nav ul .logo {
+  background-color: black;
+  width: 180px;
+  height: 100px;
+  text-align: center;
+  padding: 30px 25px;
+}
+header .container nav ul li a {
+  color: black;
+  font-size: 18px;
+  font-family: "Saira Condensed", sans-serif;
+  font-weight: 600;
+  transition: 0.5s;
+}
+header .container nav ul li a:hover {
+  color: #4586D5;
+}
+
+.first {
+  background-image: url(https://preview.colorlib.com/theme/hvacompany/img/hero/hero-1.jpg.webp);
+  width: 100%;
+  height: 750px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.first .content {
+  background-color: white;
+  width: 650px;
+  height: 350px;
+  padding: 40px 50px;
+  position: absolute;
+  top: 20%;
+  left: 50px;
+}
+.first .content h1 {
+  font-size: 45px;
+  font-family: "Saira Condensed", sans-serif;
+  font-weight: 650;
+}
+.first .content p {
+  font-size: 20px;
+}
+.first .content button {
+  background-color: #FAD110;
+  margin-top: 30px;
+  width: 170px;
+  height: 50px;
+  font-weight: bold;
+  font-family: "Saira Condensed", sans-serif;
+  font-size: 20px;
+  border: none;
+  transition: 0.5s;
+}
+.first .content button:hover {
+  color: white;
+  cursor: pointer;
+}
+.first .specification {
+  display: flex;
+  gap: 30px;
+  position: absolute;
+  bottom: -70px;
+  left: 120px;
+}
+.first .specification .payment {
+  background-color: #fff;
+  border: 1px solid grey;
+  width: 300px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.first .specification .payment .text {
+  font-size: 24px;
+  font-family: "Saira Condensed", sans-serif;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.quote {
+  display: flex;
+  margin-top: 100px;
+}
+.quote .resume {
+  background-color: #4586D5;
+  width: 50%;
+  height: 500px;
+}
+.quote .resume form .quote-input {
+  width: 40%;
+  background-color: transparent;
+  border: 1px solid #999;
+}
+.quote .resume form .quote-input::placeholder {
+  color: #fff;
+}
+.quote .resume form .quote-textarea {
+  width: 81%;
+  height: 120px;
+  background-color: transparent;
+  border: 1px solid #999;
+}
+.quote .resume form .quote-textarea::placeholder {
+  color: #fff;
+}
+.quote .video {
+  background-image: url(https://preview.colorlib.com/theme/hvacompany/img/quote-video.jpg);
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quote .video a i {
+  font-size: 32px;
+  background-color: #4586D5;
+  color: #FFF;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background-color: #212529;
+  height: 500px;
+  align-items: center;
+  padding-left: 50px;
+  margin-top: 150px;
+}
+footer h5 {
+  font-size: 18px;
+}
+footer .footdiv {
+  height: 80px;
+  cursor: pointer;
+}
+footer .footdiv .footext {
+  color: #c4c4c4;
+}
+footer .SUBSCRIBE {
+  background-color: transparent;
+  border: 1px solid grey;
+  width: 300px;
+  height: 50px;
+  padding-left: 20px;
+}
+footer .footbutton button {
+  width: 150px;
+  height: 50px;
+  font-family: "Saira Condensed", sans-serif;
+  font-weight: 600;
+  background-color: #FAD110;
+}
+footer .paragraf {
+  color: #c4c4c4;
+}
+footer .asasa {
+  color: #c4c4c4;
+  margin-top: 85px;
+}
+footer .follow i {
+  font-size: 20px;
+  color: #c4c4c4;
+}
+
+.contact-us {
+  position: relative;
+}
+.contact-us .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #4586D5;
+  position: absolute;
+  bottom: -215px;
+  left: 100px;
+}
+.contact-us .container .contact span {
+  color: #FAD110;
+  font-size: 22px;
+}
+.contact-us .container .contact h2 {
+  font-size: 40px;
+  color: white;
+}
+.contact-us .container .call {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.contact-us .container .call .operator img {
+  width: 80px;
+  object-fit: cover;
+}
+.contact-us .container .call .now span {
+  color: white;
+  font-size: 22px;
+}
+.contact-us .container .call .now p {
+  font-size: 50px;
+  color: #FAD110;
+}
+
+@media (max-width: 600px) {
+  .specification {
+    flex-wrap: wrap;
+  }
+  .first {
+    background-image: none;
+  }
+}
